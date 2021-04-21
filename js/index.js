@@ -17,7 +17,7 @@ function handleClick() {
 
     highest.innerHTML = temp.highest;
     lowest.innerHTML = temp.lowest;
-    average.innerHTML = temp.average;
+    average.innerHTML = parseFloat(temp.average).toFixed(2);
     temprature.value = '';
   }
 }
